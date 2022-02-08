@@ -1,0 +1,22 @@
+name: build-and-publish
+on: [push]
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+
+      - name: build
+        uses: jakejarvis/hugo-build-action@v0.92.1
+        with:
+          args: --minify --buildDrafts
+
+      - name: add CNAME
+        run: sudo cp CNAME public/CNAME
+
+      - name: publish
+        uses: JamesIves/github-pages-deploy-action@v4.2.3
+        with:
+          branch: gh-pages
+          folder: public
