@@ -1,0 +1,86 @@
+baseURL = "https://www.chroni.cc/"
+languageCode = "en"
+title = "Thomas Steinert"
+theme = "initio"
+
+[params]
+    name = "Thomas Steinert"
+    description = "A curious nerd"
+    email = "hello@chroni.cc"
+    phone = "+49 1520 4984564"
+    address = "Lauchstädter Str. 21, 04209 Leipzig, Germany"
+    year = 2022
+    avatar = "images/avatar.jpg"
+    avatarclass = "circle"
+    background = ""
+    banner = "images/cover.jpg"
+    favicon = ""
+    DateForm = "2 January 2006"
+    author = "Sergey Pozhilov (GetTemplate.com)"
+
+    showSubheader = true
+    showServices = true
+    showRecentWorks = true
+    showDownloads = true
+    showClients = true
+
+    showFooterContact = true
+    showFooterFollowMe = true
+    showFooterTextWidget = true
+    showFooterFormWidget = false
+
+[[menu.main]]
+    name = "home"
+    url = "/"
+    weight = 1
+# [[menu.main]]
+#     name = "blog"
+#     url = "/post/"
+#     weight = 5
+[[menu.main]]
+    name = "about"
+    url = "/about/"
+    weight = 6
+[[menu.main]]
+    name = "Imprint"
+    url = "/imprint/"
+    weight = 7
+
+# [params.disqus]
+#     site = "hugo-initio-site.disqus.com"
+
+# [params.sharethis]
+#     property = "123456789012345678901234"
+#     custom = true
+
+# [params.google.analytics]
+#     trackerID = "GA-000000000-0"
+
+[[params.social]]
+  title = "instagram"
+  url = "https://www.instagram.com/le_chronicc/"
+    icon = "fab fa-instagram"
+    footer = true
+    sharethis = false
+    network = ""
+[[params.social]]
+  title = "linkedin"
+  url = "https://www.linkedin.com/in/contact-steinert/"
+    icon = "fab fa-linkedin"
+    footer = true
+    sharethis = true
+    network = "linkedin"
+[[params.social]]
+  title = "stackoverflow"
+  url = "https://stackoverflow.com/users/2982879/chronicc"
+    icon = "fab fa-stack-overflow"
+    footer = true
+    sharethis = false
+    network = "stackoverflow"
+[[params.social]]
+  title = "github"
+  url = "https://github.com/nickname"
+    icon = "fab fa-github"
+    footer = true
+    sharethis = false
+    network = ""

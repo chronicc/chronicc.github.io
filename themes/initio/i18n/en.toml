@@ -1,0 +1,18 @@
+[home_services]
+    other = "Services"
+
+[home_recentworks]
+    other = "Recent works"
+
+[home_clients]
+    other = "Clients"
+
+[404_title]
+    other = "404"
+[404_description]
+    other = "Oops! This page doesn't exist!"
+
+[footer_text1]
+    other = "Banner photo by Luca Bravo on Unsplash"
+[footer_text2]
+    other = ""
