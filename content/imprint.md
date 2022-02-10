@@ -7,7 +7,7 @@ type: "about"
 
 Kurt Thomas Steinert  
 Lauchstädter Str. 21  
-04209 Leipzig, Deutschland
+04229 Leipzig, Deutschland
 
 ##### Kontakt
 
