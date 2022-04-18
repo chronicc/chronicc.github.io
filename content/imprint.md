@@ -19,7 +19,7 @@ Thomas Steinert
 
 ##### Umsatzsteuer-Identifikationsnummer
 
-in Beantragung
+DE350609234
 
 #### Disclaimer
 
