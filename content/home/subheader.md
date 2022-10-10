@@ -3,4 +3,8 @@ type: "subheader"
 title: ""
 ---
 
-A small window into my world.
+Why are you here?
+
+Do you fear death?
+
+Are you fulfilled?

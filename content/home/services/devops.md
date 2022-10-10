@@ -41,14 +41,13 @@ If you need a skill that is not listed here, I will consider learning it.
 
 * Ansible
 * ArgoCD
-* Docker (incl. Compose)
-* Gitlab (incl. CI)
+* Docker
+* Gitlab
 * Grafana
 * Helm
 * Kubernetes
 * Prometheus
-* Puppet
-* Saltstack
+* Skaffold
 * Terraform
 * Vagrant
 * Vault
@@ -65,5 +64,5 @@ If you need a skill that is not listed here, I will consider learning it.
 
 * Bazel
 * Make
-* Maven
+* Pants
 * Please Build
