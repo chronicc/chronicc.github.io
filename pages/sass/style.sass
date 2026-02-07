@@ -1,0 +1,38 @@
+@import 'https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css'
+
+// Import the first time to get access to the color variables
+@import '../../node_modules/bootstrap/scss/bootstrap.scss'
+
+$body-bg: #F4E9CD
+$body-color: $gray-900
+
+$border-color: $gray-900
+
+$link-color: $gray-900
+$link-hover-color: lighten($link-color, 42%)
+
+$font-family-sans-serif: "Nunito", sans-serif
+
+$nav-link-font-weight: 700
+$nav-link-color: $link-color
+$nav-link-hover-color: lighten($nav-link-color, 42%)
+
+$navbar-light-color: $link-color
+$navbar-light-hover-color: lighten($navbar-light-color, 42%)
+
+@import '../../node_modules/bootstrap/scss/bootstrap.scss'
+
+.navbar-brand
+  font-weight: 800
+
+.social
+  a
+    font-size: 1.5rem
+
+.background-image
+  left: 50%
+  opacity: 0.2
+  position: fixed
+  top: 50%
+  transform: translate(-50%, -50%)
+  z-index: -1

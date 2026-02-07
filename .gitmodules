@@ -1,0 +1,6 @@
+[submodule "pages/themes/ntun"]
+	path = pages/themes/ntun
+	url = git@github.com:Netoun/ntun.git
+[submodule "pages/themes/vonge"]
+	path = pages/themes/vonge
+	url = git@github.com:paberr/vonge-zola-theme.git
