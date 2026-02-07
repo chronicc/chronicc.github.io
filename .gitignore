@@ -1,1 +1,4 @@
-*.lock
+.local/
+*~
+node_modules/
+zola/public/

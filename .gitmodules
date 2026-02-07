@@ -1,0 +1,3 @@
+[submodule "pages/themes/vonge"]
+	path = pages/themes/vonge
+	url = git@github.com:paberr/vonge-zola-theme.git
